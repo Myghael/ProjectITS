@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thread</title>
+    <link rel="stylesheet" href="threadStyle.css">
+</head>
+<body>
+    <center>
+        <div class="header" id="border">
+            <h1>ITS Biology 7th Grade</h1>
+        </div>
+
+        <nav class="navbar" id="border">
+            <a href="../home.html"> Home </a>
+            <a href="../topic.html"> Topic </a>
+            <a href="../quiz.html"> Quiz </a>
+            <a href="../forum.html"> Forum</a>
+            <a href="../account.html"> Account </a>
+        </nav>
+
+        <div class="content" id="border">
+            <h1> Thread </h1>
+
+            <hr>
+
+            <div class="subforum">
+                <table>
+                    <tr>
+                        <td rowspan="2" style="width: 150px;">
+                            <img src="../img/people.png" alt="">
+                        </td>
+                        <td style="width: 950px; font-size: 23px;">
+                            <h2>Pertanyaan: Apa saja ciri makhluk hidup</h2>
+                            <p>
+                                Tolong jelaskan secara detail ciri-ciri apa saja yang hanya dimiliki oleh makhluk hidup
+                            </p>
+                        </td>
+                        <td rowspan="2" style="width: 100px; font-size: 22px;">
+                            <button  id="btnReply" onclick="showReply()">Reply</button>
+                        </td>
+                    </tr>
+                </table>
+             </div>
+             <br>
+
+             <div class="subforum">
+                <table>
+                    <tr>
+                        <td rowspan="2" style="width: 150px;">
+                            <img src="../img/people.png" alt="">
+                        </td>
+                        <td style="width: 950px; font-size: 23px;">
+                            <h2>Re-Pertanyaan: Apa saja ciri makhluk hidup</h2>
+                            <p>
+                                Bergerak,bernapas, makan, peka rangsangan, melakukan metabolisme, mengeluarkan zat sisa.
+                            </p>
+                        </td>
+                        <td rowspan="2" style="width: 100px; font-size: 22px;">
+                            <button  id="btnReply" onclick="showReply()">Reply</button>
+                        </td>
+                    </tr>
+                </table>
+             </div>
+
+
+
+
+
+             <div id="hide">
+                <form action="">
+                    <textarea name="reply" id="" cols="100" rows="10" style="resize: unset;  margin: 20px;"> Reply disini</textarea>
+                    <br>
+                    <input type="submit" >
+                    <br>
+    
+                 </form>
+             </div>
+             <footer id="border">
+                <p class="foot"> ITS Biology 7th Grade</p>
+            </footer>
+</body>
+
+<script src="script.js">
+    
+</script>
+
+</html>
